@@ -1,0 +1,112 @@
+
+/* 
+	STYLE.CSS:
+	One stylesheet to rule them all.
+	
+	selector { property:value }
+	
+*/
+
+
+/* -------  General Styles ------- */
+
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+	background-image:url(images/backgrounds/background2.css);
+}
+
+header {
+	height: 140px;
+	background-color: lightskyblue;
+	background-image:url(images/backgrounds/background-photo.jpg);
+}
+
+.logo {
+  font-family: fantasy, cursive;
+  font-size: 72px;
+  color: lightskyblue;
+  text-align: center;
+  letter-spacing: -3;
+  margin: 0;
+  padding: 20px 0 0 0;
+}
+
+header h2 {
+	font-family: Arial, Helvetica, sans-serif, serif;
+	color:lightskyblue;
+	margin: 0px;
+	font-size: 18px;
+	text-align: center;
+}
+
+footer {
+	background-color: #403933;
+	background-image:url(images/backgrounds/background3.jpg);
+
+}
+
+section {
+	padding: 5%;
+  margin: 5px 0;
+}
+
+/* -------  Type ------- */
+
+h1, h2, h3 {
+  font-family: cursive, sans-serif;
+	color: lightskyblue;
+  text-align: center;
+  font-weight: bold;
+}
+
+h1 { font-size: 40px; }
+h2 { font-size: 40px; }
+h3 { font-size: 25px; }
+
+p, li {
+ font-style: oblique;
+ color: lightskyblue;
+ font-family: fantasy, sans-serif;
+ //line-height: 1.5em;
+ //margin-bottom: 0;
+}
+
+a {
+	font-weight: 700;
+	text-decoration: none;	
+}
+a:link { color: lightskyblue; }
+a:visited { color: lightskyblue; }
+a:hover { color: lightskyblue; }
+a:active { color: lightskyblue; }
+a:hover {
+	text-decoration: underline;	
+}
+
+em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+footer p {
+	color: lightskyblue;	
+	text-align: center;
+  padding: 30px;
+  margin: 0;
+}
+
+/* -------  Elements ------- */
+
+img, iframe { 
+  width: 100%;	
+  border-radius: 8px;
+  border: 1px solid black;
+} 
+
+/* -------  Modifier styles ------- */
+
+.border-top {
+  padding-top: 80px;
+  border-top: 2px solid #403933;
+}
